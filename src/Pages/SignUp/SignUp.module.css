@@ -1,0 +1,45 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.inputs{
+    padding: 12px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(210, 210, 248);
+    border: 1px solid red;
+}
+.inputs:hover{
+    border-radius: 10px;
+  border: 2px solid blue;
+}
+
+.SubmitBtn{
+    padding: 10px;
+    background-color: red;
+    width: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
